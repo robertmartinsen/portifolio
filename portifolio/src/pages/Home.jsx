@@ -1,10 +1,22 @@
-import React from "react";
+import React from "react"
+import About from "../components/About"
+import Portfolio from "../components/Portfolio"
+import Contact from "../components/Contact"
 
 function Home() {
-
-    return (
-        <div>hello</div>
-    )
+  return (
+    <section>
+      <div>
+        <About />
+      </div>
+      <div>
+        <Portfolio />
+      </div>
+      <div>
+        <Contact />
+      </div>
+    </section>
+  )
 }
 
 export default Home

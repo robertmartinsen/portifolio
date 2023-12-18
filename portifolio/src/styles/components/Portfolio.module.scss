@@ -1,0 +1,15 @@
+@import "../variables.scss";
+
+.portfolioBody {
+  height: 100vh;
+}
+
+.portfolioContainer {
+  opacity: 80%;
+}
+
+.titleContainer {
+  padding-top: 100px;
+  background-color: $primary;
+  color: white;
+}

@@ -20,4 +20,21 @@ module.exports = {
   resolve: {
     extensions: [".js", ".jsx", ".css", ".scss"],
   },
-}
+  module: {
+    rules: [
+      {
+        test: /\.svg$/,
+        use: [
+          {
+            loader: '@svgr/webpack',
+            options: {
+              dimensions: false,
+              icon: true,
+            },
+          },
+        ],
+      },
+    ],
+  },
+};
+
